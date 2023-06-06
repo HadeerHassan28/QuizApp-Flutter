@@ -7,7 +7,7 @@ class ScoreScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    String message = score > 3 ? 'Success!' : 'Failed!';
+    String message = score > 3 ? 'Success! 🎉🏆' : 'Failed! 🚫🏆';
 
     return Scaffold(
       appBar: AppBar(
